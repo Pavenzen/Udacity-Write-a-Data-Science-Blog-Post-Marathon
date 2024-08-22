@@ -9,10 +9,10 @@ For this we need to understand what are the important metrics to finsih the mara
 
 For this, we asked 4 questions:
 
-• What is the average time per age group base on the contestens? 
-• Which age group has the biggest difference between the 1st and the 2nd half of the marathon?
-• Can we somehow predict age or gender by the results after each 5k?
-• Can we predict the finish time by the halfway-point time?
+- How does the pace per age group developt over time? 
+- Which age group has the biggest difference between the 1st and the 2nd half of the marathon?
+- Can we somehow predict age or gender by the results after each 5k?
+- Can we predict the finish time by the halfway-point time?
 
 2- Data Understanding
 
@@ -26,11 +26,12 @@ Link: https://www.kaggle.com/datasets/rojour/boston-results?resource=download
 
 3- Prepare Data
 
-For the data preparation phase, we gathered the data, assessed it and then proceeded to clean it, focusing on our columns of interest, with python libraries of Numpy and Pandas
+For the data preparation phase, we gathered the data, assessed it and then proceeded to clean it, focusing on our columns of interest, with python libraries of Numpy, Pandas and re
+We created a cleaning function which allows us too performe the identical operations on all datasets to asure the same structure 
 
 4- Data Modeling
 
-ongoing
+- For the 1st question I used a heatmap to visualize the different paces per age group over all 3 years.
 
 5- Evaluate the Results
 Lets see
