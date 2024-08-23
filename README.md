@@ -7,11 +7,10 @@ We investigated the Boston Marathon results from 2015,2016 and 2017 to find out 
 
 For this we need to understand what are the important metrics to finsih the marathon in a certain time. 
 
-For this, we asked 4 questions:
+For this, we asked 3 questions:
 
 - How does the pace per age group developt over time? 
 - Which age group has the biggest difference between the 1st and the 2nd half of the marathon?
-- Can we somehow predict age or gender by the results after each 5k?
 - Can we predict the finish time by the halfway-point time?
 
 2- Data Understanding
@@ -32,6 +31,8 @@ We created a cleaning function which allows us too performe the identical operat
 4- Data Modeling
 
 - For the 1st question I used a heatmap to visualize the different paces per age group over all 3 years.
+- For the 2nd question I used grouped bar charts to visualize the time differences per year per age group
+- For the 3rd question I used a random forst model on specific features to predict the finsih time and plotet the different charts to visualize the prediction
 
 5- Evaluate the Results
 Lets see
