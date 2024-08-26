@@ -35,9 +35,9 @@ We created a cleaning function which allows us too performe the identical operat
 - For the 3rd question I used a random forst model on specific features to predict the finsih time and plotet the different charts to visualize the prediction
 
 5- Evaluate the Results
-Lets see
+For the Results, see either the notations inside the jupiter notebook or take a look at my blogpost: https://medium.com/@thomaspritzens/running-the-numbers-boston-marathon-2015-2017-through-the-lens-of-an-upcoming-data-scientist-8a1b3db3e8da
 
 Finally, the readme format:
 
-the libraries used: probalby Numpy, Pandas, Matplotlib and Seaborn but additional might be added down the road.
+the libraries used: Numpy, Pandas, Matplotlib,Seaborn,re, sklearn,
 the motivation for the project: as a upcoming marathon runner in munich on the 19-10-2024 I am alway interested in everything related to marathon runnig, and this data will probably help me set the perfect timetargets to finsih it. 
